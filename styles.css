@@ -489,7 +489,9 @@ body {
 .oui{
     margin: 0px 0px;
 }
-
+.phono a{
+    text-align: center;
+}
 
 .fixation, .image_et_texte .paragraphe {
     display: none;
@@ -528,7 +530,6 @@ padding-top: 20px;
     display: flex;
     flex-direction: column;
     width: 50px;
-    margin-right: 20px;
 }
 .titre{
     display: none;
@@ -596,9 +597,7 @@ padding-top: 20px;
       margin-top: 39px;
       padding-bottom: 0px;
   }
-  .phono{
-      margin-right: 20px;
-  }
+ 
   .presentation h1{
       font-size: 1.3em;
       text-align: center;
